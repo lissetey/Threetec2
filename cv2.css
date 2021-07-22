@@ -1,0 +1,153 @@
+body{
+  background-color:rgb(110, 203, 247);
+  display:flex;
+  justify-content:center;
+}
+h1 {
+   color:darkslategrey;
+   font-family:Arial, Helvetica, sans-serif;
+   
+}
+p {
+  font-family:Arial, Helvetica, sans-serif;
+  font:80%sans-serif;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:100%;
+  color:rgb(243, 243, 243);
+
+}
+ul{
+  font:100% sans-serif;
+}
+.square{
+  width: 290px;
+  height: 298px;
+  color: aqua;
+}
+.container{
+  align-items: center;
+  margin: 15px;
+  background-color:#7FDEF1;
+  width: 1024px;
+  padding: 30px;
+}
+.content1{
+    
+  margin-bottom: 38px;
+  
+  display: flex;
+}
+.img {
+  border-radius: 20px;
+  margin: 20px;
+  width:30%;
+  height:100% ;
+
+}
+.profile {
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin-left: 30px;
+
+}
+.content2{
+ display: flex; 
+ margin: block end 20px; 
+}
+.Experience{
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  height: 225px;
+  width: 40%;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.Education{
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  height: 225px;
+  width: 40%;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.content3{
+  ​
+     display: flex;
+     margin-block-end:20px;
+}
+
+.Programming Skills{
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  height: 200px;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+  margin-right: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+}
+.Skills list{
+   
+  display: flex;
+  justify-content: center;
+}
+.column1{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  
+  justify-content: space-around;
+  margin-right: 80px;
+}
+.column2{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+
+  justify-content: space-around;
+  margin-right: 80px;
+ 
+}
+.withe-box{ 
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 3;
+  margin: 5px;
+  height: 250px;
+  width: 160%;
+  padding: 20px;
+  padding-bottom: 40px;
+  padding-top: 2px;
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+  
+}   
+.movies{
+  list-style: none;
+}
+.travel{
+  list-style: none;
+}
+.painting{
+  list-style: none; 
+}
+.imagination{
+  list-style: none;
+}
+
+
